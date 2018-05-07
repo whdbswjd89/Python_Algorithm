@@ -42,7 +42,7 @@ print(sum_fac(5))
 def max_fac(l,n): #list = a, number= n
     if n == 1: #1개일때는
         return l[0] #그 한개가 최대값
-    max_value = max_fac(l,n-1) #더 작은 값으로 자기자신을 호출 
+    max_value = max_fac(l,n-1) #더 작은 값으로 자기자신을 호출
     if max_value > l[n-1]:
         return max_value
     else:
